@@ -1,0 +1,29 @@
+{
+    "name": "my-server-mongodb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "NgocTo",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "cookie-parser": "^1.4.7",
+        "cookie-session": "^2.1.0",
+        "cors": "^2.8.5",
+        "express": "^4.21.1",
+        "express-fileupload": "^1.5.1",
+        "express-session": "^1.18.1",
+        "mongoclient": "^1.0.3",
+        "mongodb": "^6.9.0",
+        "mongoose": "^8.7.3",
+        "my-server-mongodb": "file:"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "nodemon": "^3.1.7"
+    }
+}
